@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aun.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+
+    <title>All U Need</title>
 </head>
 <body>
-    <h1 class="text-blue-900 strong">hello ALL U NEED</h1>
+    <nav class="nav-bar bg-white flex justify-end">
+        <div class="container mt-8">
+            <a href="https://www.alluneed.in"class=flex>
+                <img src="logo/logo.png" class="h-12 my-5" alt="aunlogo">
+                <span class="my-5 text-3xl font-bold">ALL U NEED</span>
+            </a>
+        </div>
+        <ul class=" navs-list px-2 py-4 flex justify-end">
+            <li class="list space-x-10 px-9 my-5 flex ">
+                <a href="" class="text-blue-600 font-bold my-5">Home</a>
+                <a href="" class="text-black font-bold my-5">About</a>
+                <a href="" class="text-black font-bold my-5">Catalog</a>
+                <!-- services dropdown -->
+                <div class="dropdown">
+                    <button class="navs-list text-black my-5 font-bold flex hover:text-blue-600">
+                        Services
+                        <span class="material-symbols-outlined -my-2 px-0 mt-0.5">arrow_drop_down</span>
+
+                    </button>
+                    <div class="drp-content">
+                        <a href="#" class="list">Service 1</a>
+                        <a href="#" class="list">Service 2</a>
+                        <a href="#" class="list">Service 3</a>
+                    </div>
+                </div>
+                <!-- services dropdown -->
+                <a href="" class="text-black font-bold my-5">Contact</a>
+            </li>
+                
+        </ul>
+        
+    </nav>
+    <!-- end of navigation bar -->
+
+</body>
+    
 </body>
 </html>
