@@ -80,3 +80,23 @@ body{
     border: none;
     box-shadow: 0px 5px 10px rgba(58, 48, 247, 0.4);
 }
+
+/* upper part completed here */
+/* box part started next from here */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 420px 420px 420px 420px;
+    background-color: white;
+    row-gap: 30px;
+    margin-left: 100px;
+}
+.grid-item{
+    border: solid rgb(255, 255, 255) 1px;
+    box-shadow: 0px 5px 10px rgba(58, 48, 247, 0.4);
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+    text-align: center;
+
+}
