@@ -42,7 +42,7 @@ body{
 }
 .navbar ul li a:hover{
     color: blue;
-    transition-duration: 0.5s;
+    transition-duration: 200ms;
     box-shadow: 0px 5px 10px rgba(58, 48, 247, 0.4);
 }
 
@@ -83,7 +83,7 @@ body{
 .btn:hover{
     transition: .25s linear;
     box-shadow: 0px 5px 10px rgba(241, 53, 53, 0.4);
-    transition-duration: 0.5s;
+    transition-duration: 200ms;
 
 }
 
