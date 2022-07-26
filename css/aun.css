@@ -42,7 +42,7 @@ body{
 }
 .navbar ul li a:hover{
     color: blue;
-    transition-delay: 0.3s;
+    transition-duration: 0.5s;
     box-shadow: 0px 5px 10px rgba(58, 48, 247, 0.4);
 }
 
@@ -80,6 +80,12 @@ body{
     border: none;
     box-shadow: 0px 5px 10px rgba(58, 48, 247, 0.4);
 }
+.btn:hover{
+    transition: .25s linear;
+    box-shadow: 0px 5px 10px rgba(241, 53, 53, 0.4);
+    transition-duration: 0.5s;
+
+}
 
 /* upper part completed here */
 /* box part started next from here */
@@ -101,6 +107,11 @@ body{
     text-align: center;
     
 }
+.grid-item:hover{
+    box-shadow: 0px 5px 10px rgba(241, 53, 53, 0.4);
+    transition-duration: 0.5s;
+
+}
 .adv{
     box-shadow: 2px 2px 5px 2px;
     display: flex;
@@ -108,14 +119,16 @@ body{
     margin-left: 108px;
     margin-top: 20px;
     font-size: 40px;
-    color: azure;
+    color: rgb(114, 111, 112);
     text-align: center;
-    background: rgb(149,149,238);
-background: linear-gradient(90deg, rgba(149,149,238,1) 55%, rgba(2,0,36,1) 100%, rgba(0,255,21,0.7091211484593838) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 53%, rgba(128,18,237,0.10127801120448177) 100%);
     height: 70px;
     width: 1650px;
     border-radius: 0px 20px 0px 20px;
-    text-shadow: 2px 2px 5px black ;
+    text-shadow: 2px 2px 5px rgb(70, 182, 247) ;
+    box-shadow: 1px 1px 1px 1px rgb(217, 129, 252);
+    
 }
 .h1-item{
     text-align: center;
